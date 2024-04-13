@@ -7,4 +7,5 @@ Depois basta fazer upload do CSV no index.html e os arquivo exportados aparecer�
 Compacte os arquivos HTML em um zip e faça upload dentro do livro moodle em importações de capitulos
 
 //Caso queira remover as extensões .html dos títulos utilize a seguinte query
+
 UPDATE mdl_book_chapters SET title = REPLACE(title, '.html', '') WHERE `id` > (IDs DOS NOVOS CAPITULOS QUE FORAM ADICIONADOS); 
